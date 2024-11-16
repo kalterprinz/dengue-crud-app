@@ -1,0 +1,56 @@
+.add-dengue-data {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e7fff8;
+    border-radius: 10px;
+    background-color: #eeeded;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    width: 95%;
+  }
+  
+  input:focus {
+    border-color: #60ffd2;
+  }
+  
+  .btn-primary {
+    background-color:rgb(103, 232, 180);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Optional for smooth transition */
+  }
+  
+  /* Hover state */
+  .btn-primary:hover {
+    background-color:  rgb(29, 155, 105); /* Slightly darker green for hover */
+  }
+  
+  /* Pressed (active) state */
+  .btn-primary:active {
+    background-color: rgb(14, 97, 64); /* Even darker green for pressed state */
+  }
+  

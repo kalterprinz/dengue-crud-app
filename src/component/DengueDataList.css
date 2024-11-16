@@ -1,0 +1,161 @@
+.dengue-data-list {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table th {
+    background-color: #00fbb4;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn-edit {
+    background-color: #1ed3a0;
+    color: white;
+  }
+  .btn-edit:hover {
+    background-color: #328069;
+  }
+  
+  .btn-delete {
+    background-color: #f44336;
+    color: white;
+  }
+  .btn-delete:hover {
+    background-color: #7b1010;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-form label {
+    font-size: 14px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dengue-data-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-input, .filter-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .filter-dropdown {
+    width: 200px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .prev-button, .next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #68ffd7;
+    color: #000000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-indicator {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .prev-button:disabled, .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .prev-button:hover:not(:disabled), .next-button:hover:not(:disabled) {
+    background-color: #56cfaf;
+  }
+  
